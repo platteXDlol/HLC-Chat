@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# SvelteKit build
+/build/
+/.svelte-kit/
+/vite.config.ts.timestamp-*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# SQLite data (Docker volume target)
+/data/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Testing
+/test-results/
+/playwright-report/
+/coverage/
+
+# Misc
+.DS_Store
+*.log
